@@ -1,0 +1,6 @@
+= Sample-CDI-Fake-DB
+
+A very simple project with one https://github.com/oliviercailloux/sample-cdi-fake-db/blob/master/src/main/java/io/github/oliviercailloux/sample_cdi_fake_db/GetNamesServlet.java[servlet] and one CDI https://github.com/oliviercailloux/sample-cdi-fake-db/blob/master/src/main/java/io/github/oliviercailloux/sample_cdi_fake_db/FakeDatabase.java[managed bean], injected into the servlet. The CDI bean simulates a fake database (fake because it uses no proper database management system).
+
+This sample accompanies a Java https://github.com/oliviercailloux/java-course/tree/master/CDI[course] and only serves to illustrate a mechanism of CDI. This approach should not be used for production code on a server, because the fake database is not protected against multi-threading usage.
+
