@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.core.MediaType;
 
+@SuppressWarnings("serial")
 @WebServlet("/customers/names")
 public class GetNamesServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
 
 	@Inject
 	private FakeDatabase db;
